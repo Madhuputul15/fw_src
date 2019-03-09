@@ -1,6 +1,4 @@
-# include <stdio.h>
-# include <addSub.c>
-# include <mulDiv.c>
+# include <header.h>
 
 int main() {
 

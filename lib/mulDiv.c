@@ -1,11 +1,11 @@
-# include <header.h>
+# include <stdio.h>
 
-int mul(int num1, int num2)
+double mul(double num1, double num2)
 {
 	return (num1*num2);
 }
 
-int div(int num1, int num2)
+double div(double num1, double num2)
 {
 	return (num1/num2);
 }

@@ -1,11 +1,11 @@
 #!/bin/sh
-/*export PATH=$PATH:~/usr/local/make
+export PATH=$PATH
 pwd;
 cd ../make;
 pwd;
-make;*/
+make;
 
-pipeline {
+/*pipeline {
     agent any
 
     stages {
@@ -32,3 +32,4 @@ pipeline {
         }
     }
 }
+*/

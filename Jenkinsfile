@@ -12,7 +12,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..................'
-                export PATH=$PATH:~/usr/local/make
+                //export PATH=$PATH:~/usr/local/make
+                export PATH=$PATH
                 pwd;
                 cd ../make;
                 pwd;
